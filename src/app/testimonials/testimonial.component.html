@@ -1,0 +1,12 @@
+<section class="d-flex align-items-center flex-column">
+    <h2 class="fw-bold">Testimonials</h2>
+    <p>People I've worked with have said some nice things...</p>
+    <img class="testimonials" src="{{testimonials[person].img}}" alt="testimonials">
+    <p class="mt-4 fs-5" id="info">{{testimonials[person].info}}</p>
+    <p id="author">{{testimonials[person].author}}</p>
+    <p id="job">{{testimonials[person].job}}</p>
+    <div class="mb-3">
+      <button type="button" class="btn1" (click)="btn1()" [ngClass]="person==0 ? 'active' : ''"></button>
+      <button type="button" class="btn2 mx-2" (click)="btn2()" [ngClass]="person==1 ? 'active' : ''"></button>
+    </div>
+</section>
