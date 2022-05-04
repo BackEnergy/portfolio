@@ -1,8 +1,11 @@
 {
+    "TOP":{
+        "MAINLOGO":"logo",
+        "LANGBTN":"changer en Français"
+    },
     "HEADER":{
         "TITLE":"Front-end Developer",
         "SUBTITLE":"I Code for a living, and for fun :)",
-        "CLOGO":"logo",
         "AVATAR":"avatar",
         "PCIMG":"pc image"
     },
@@ -23,7 +26,14 @@
         "TITLE":"Front-end Web Developer",
         "INFORMATION":"I like to code things from scratch, and enjoy bringing ideas to life in the browser.",
         "LANGUAGES":"Languages I speak :",
-        "WEBLOGO":"Front-end Logo" 
+        "PROGRAMMING":"HTML, CSS, JavaScript, C/C++, Python",
+        "WEBLOGO":"Front-end Logo",
+        "IDE1":"Atom",
+        "IDE2":"VS Code",
+        "IDE3":"Pycharm",
+        "IDE4":"Git",
+        "IDE5":"GitHub",
+        "IDE6":"Terminal"
     },
     "TESTIMONIALS":{
         "TITLE":"Testimonials",
@@ -33,7 +43,7 @@
     },
     "FOOTER":{
         "QUOTE":"Living, learning, & leveling up one day at a time.",
-        "CLOGO":"logo",
+        "MAINLOGO":"logo",
         "LINKEDIN":"linkedin icon",
         "GITHUB":"github icon"
     }

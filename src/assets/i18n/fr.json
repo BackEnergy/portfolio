@@ -1,8 +1,11 @@
 {
+    "TOP":{
+        "MAINLOGO":"logo",
+        "LANGBTN":"change to English"
+    },
     "HEADER":{
         "TITLE":"Développeur web front-end",
         "SUBTITLE":"Je code pour gagner ma vie et pour m'amuser :)",
-        "CLOGO":"logo",
         "AVATAR":"avatar",
         "PCIMG":"image d'ordinateur"
     },
@@ -23,7 +26,14 @@
         "TITLE":"Développeur web front-end",
         "INFORMATION":"J'aime coder des choses à partir de zéro et donner vie à des idées dans le navigateur.",
         "LANGUAGES":"Langues que je parle :",
-        "WEBLOGO":"logo du développeur web frontal"
+        "PROGRAMMING":"HTML, CSS, JavaScript, C/C++, Python",
+        "WEBLOGO":"logo du développeur web frontal",
+        "IDE1":"Atom",
+        "IDE2":"VS Code",
+        "IDE3":"Pycharm",
+        "IDE4":"Git",
+        "IDE5":"GitHub",
+        "IDE6":"Terminal"
     },
     "TESTIMONIALS":{
         "TITLE":"Témoignages",
@@ -33,7 +43,7 @@
     },
     "FOOTER":{
         "QUOTE":"Vivre, apprendre et monter de niveau un jour à la fois.",
-        "CLOGO":"logo",
+        "MAINLOGO":"logo",
         "LINKEDIN":"linkedin icône",
         "GITHUB":"github icône"
     }
