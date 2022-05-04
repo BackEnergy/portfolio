@@ -7,14 +7,13 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-  id = 0;
-  lang = ["Changer en Français", "Change to English"];
+  lang = "Changer en Français";
   constructor(private readonly translateService: TranslateService) {}
   ngOnInit(): void {
     this.translateService.use('en');
   }
   changeLanguage(){
     this.translateService.currentLang !== 'en' ? this.translateService.use('en') : this.translateService.use('fr');
-    this.id !== 0 ? this.id = 0 : this.id = 1;
+    this.translateService.currentLang !== 'en' ? this.lang = "changer en Français" : this.lang = "Change to English";
   }
 }

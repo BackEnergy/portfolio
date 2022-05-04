@@ -1,14 +1,17 @@
 {
     "HEADER":{
         "TITLE":"Front-end Developer",
-        "SUBTITLE":"I Code for a living, and for fun :)"
+        "SUBTITLE":"I Code for a living, and for fun :)",
+        "CLOGO":"logo",
+        "AVATAR":"avatar",
+        "PCIMG":"pc image"
     },
     "INFORMATION":{
-        "TITLE": "Hi, I'm Chris. Nice to meet you.",
-        "DESCRIPTION": "Since beginning my journey as a freelance developer nearly 4 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious,  and perpetually working on improving my chops one dev problem at a time."
+        "TITLE":"Hi, I'm Chris. Nice to meet you.",
+        "DESCRIPTION":"Since beginning my journey as a freelance developer nearly 4 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious,  and perpetually working on improving my chops one dev problem at a time."
     },
     "PROJECTS":{
-        "TITLE": "Here are a few design projects I've worked on recently.",
+        "TITLE":"Here are a few design projects I've worked on recently.",
         "PROJ1":"First project",
         "PROJ2":"Second project",
         "PROJ3":"Third project",
@@ -17,17 +20,21 @@
         "PROJ6":"Sixth project"
     },
     "SKILLS":{
-        "TITLE": "Front-end Web Developer",
-        "INFORMATION": "I like to code things from scratch, and enjoy bringing ideas to life in the browser.",
-        "LANGUAGES": "Languages I speak :"
+        "TITLE":"Front-end Web Developer",
+        "INFORMATION":"I like to code things from scratch, and enjoy bringing ideas to life in the browser.",
+        "LANGUAGES":"Languages I speak :",
+        "WEBLOGO":"Front-end Logo" 
     },
     "TESTIMONIALS":{
-        "TITLE": "Testimonials",
-        "SUBTITLE": "People I've worked with have said some nice things..."
+        "TITLE":"Testimonials",
+        "SUBTITLE":"People I've worked with have said some nice things...",
+        "IMGALT":"Testimonial Person Image"
 
     },
     "FOOTER":{
-        "PHRASE": "Living, learning, & leveling up one day at a time."
+        "QUOTE":"Living, learning, & leveling up one day at a time.",
+        "CLOGO":"logo",
+        "LINKEDIN":"linkedin icon",
+        "GITHUB":"github icon"
     }
-
 }
