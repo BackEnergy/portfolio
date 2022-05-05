@@ -1,13 +1,13 @@
 {
     "TOP":{
-        "MAINLOGO":"logo",
-        "LANGBTN":"changer en Français"
+        "MAIN_LOGO":"logo",
+        "LANGUAGE_BUTTON":"changer en Français"
     },
     "HEADER":{
         "TITLE":"Front-end Developer",
         "SUBTITLE":"I Code for a living, and for fun :)",
         "AVATAR":"avatar",
-        "PCIMG":"pc image"
+        "PC_IMAGE":"pc image"
     },
     "INFORMATION":{
         "TITLE":"Hi, I'm Chris. Nice to meet you.",
@@ -27,7 +27,7 @@
         "INFORMATION":"I like to code things from scratch, and enjoy bringing ideas to life in the browser.",
         "LANGUAGES":"Languages I speak :",
         "PROGRAMMING":"HTML, CSS, JavaScript, C/C++, Python",
-        "WEBLOGO":"Front-end Logo",
+        "WEB_LOGO":"Front-end Logo",
         "IDE1":"Atom",
         "IDE2":"VS Code",
         "IDE3":"Pycharm",
@@ -38,12 +38,12 @@
     "TESTIMONIALS":{
         "TITLE":"Testimonials",
         "SUBTITLE":"People I've worked with have said some nice things...",
-        "IMGALT":"Testimonial Person Image"
+        "IMAGE_ALT":"Testimonial Person Image"
 
     },
     "FOOTER":{
         "QUOTE":"Living, learning, & leveling up one day at a time.",
-        "MAINLOGO":"logo",
+        "MAIN_LOGO":"logo",
         "LINKEDIN":"linkedin icon",
         "GITHUB":"github icon"
     }

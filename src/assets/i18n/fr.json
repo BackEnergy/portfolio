@@ -1,13 +1,13 @@
 {
     "TOP":{
-        "MAINLOGO":"logo",
-        "LANGBTN":"change to English"
+        "MAIN_LOGO":"logo",
+        "LANGUAGE_BUTTON":"change to English"
     },
     "HEADER":{
         "TITLE":"Développeur web front-end",
         "SUBTITLE":"Je code pour gagner ma vie et pour m'amuser :)",
         "AVATAR":"avatar",
-        "PCIMG":"image d'ordinateur"
+        "PC_IMAGE":"image d'ordinateur"
     },
     "INFORMATION":{
         "TITLE":"Salut, je suis Chris. Ravi de vous rencontrer.",
@@ -43,7 +43,7 @@
     },
     "FOOTER":{
         "QUOTE":"Vivre, apprendre et monter de niveau un jour à la fois.",
-        "MAINLOGO":"logo",
+        "MAIN_LOGO":"logo",
         "LINKEDIN":"linkedin icône",
         "GITHUB":"github icône"
     }
