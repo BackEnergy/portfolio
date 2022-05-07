@@ -1,0 +1,50 @@
+{
+    "TOP":{
+        "MAIN_LOGO":"logo",
+        "LANGUAGE_BUTTON":"change to English"
+    },
+    "HEADER":{
+        "TITLE":"Développeur web front-end",
+        "SUBTITLE":"Je code pour gagner ma vie et pour m'amuser :)",
+        "AVATAR":"avatar",
+        "PC_IMAGE":"image d'ordinateur"
+    },
+    "INFORMATION":{
+        "TITLE":"Salut, je suis Chris. Ravi de vous rencontrer.",
+        "DESCRIPTION":"Depuis le début de mon parcours en tant que développeur indépendant il y a près de 4 ans, j'ai travaillé à distance pour des agences, consulté des startups et collaboré avec des personnes talentueuses pour créer des produits numériques à usage professionnel et grand public. Je suis tranquillement confiant, naturellement curieux et je travaille perpétuellement à améliorer mes côtelettes un problème de développement à la fois."
+    },
+    "PROJECTS":{
+        "TITLE":"Voici quelques projets de design sur lesquels j'ai travaillé récemment.",
+        "PROJ1":"Premier projet",
+        "PROJ2":"Deuxième projet",
+        "PROJ3":"Troisième projet",
+        "PROJ4":"Quatrième projet",
+        "PROJ5":"Cinquième projet",
+        "PROJ6":"Sixième projet"
+    },
+    "SKILLS":{
+        "TITLE":"Développeur web front-end",
+        "INFORMATION":"J'aime coder des choses à partir de zéro et donner vie à des idées dans le navigateur.",
+        "LANGUAGES":"Langues que je parle :",
+        "PROGRAMMING":"HTML, CSS, JavaScript, C/C++, Python",
+        "WEBLOGO":"logo du développeur web frontal",
+        "IDE1":"Atom",
+        "IDE2":"VS Code",
+        "IDE3":"Pycharm",
+        "IDE4":"Git",
+        "IDE5":"GitHub",
+        "IDE6":"Terminal"
+    },
+    "TESTIMONIALS":{
+        "TITLE":"Témoignages",
+        "SUBTITLE":"Les gens avec qui j'ai travaillé m'ont dit des choses gentilles...",
+        "IMGALT":"Témoignage Personne Image"
+
+    },
+    "FOOTER":{
+        "QUOTE":"Vivre, apprendre et monter de niveau un jour à la fois.",
+        "MAIN_LOGO":"logo",
+        "LINKEDIN":"linkedin icône",
+        "GITHUB":"github icône"
+    }
+}

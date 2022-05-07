@@ -1,0 +1,50 @@
+{
+    "TOP":{
+        "MAIN_LOGO":"logo",
+        "LANGUAGE_BUTTON":"changer en Français"
+    },
+    "HEADER":{
+        "TITLE":"Front-end Developer",
+        "SUBTITLE":"I Code for a living, and for fun :)",
+        "AVATAR":"avatar",
+        "PC_IMAGE":"pc image"
+    },
+    "INFORMATION":{
+        "TITLE":"Hi, I'm Chris. Nice to meet you.",
+        "DESCRIPTION":"Since beginning my journey as a freelance developer nearly 4 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious,  and perpetually working on improving my chops one dev problem at a time."
+    },
+    "PROJECTS":{
+        "TITLE":"Here are a few design projects I've worked on recently.",
+        "PROJ1":"First project",
+        "PROJ2":"Second project",
+        "PROJ3":"Third project",
+        "PROJ4":"Fourth project",
+        "PROJ5":"Fifth project",
+        "PROJ6":"Sixth project"
+    },
+    "SKILLS":{
+        "TITLE":"Front-end Web Developer",
+        "INFORMATION":"I like to code things from scratch, and enjoy bringing ideas to life in the browser.",
+        "LANGUAGES":"Languages I speak :",
+        "PROGRAMMING":"HTML, CSS, JavaScript, C/C++, Python",
+        "WEB_LOGO":"Front-end Logo",
+        "IDE1":"Atom",
+        "IDE2":"VS Code",
+        "IDE3":"Pycharm",
+        "IDE4":"Git",
+        "IDE5":"GitHub",
+        "IDE6":"Terminal"
+    },
+    "TESTIMONIALS":{
+        "TITLE":"Testimonials",
+        "SUBTITLE":"People I've worked with have said some nice things...",
+        "IMAGE_ALT":"Testimonial Person Image"
+
+    },
+    "FOOTER":{
+        "QUOTE":"Living, learning, & leveling up one day at a time.",
+        "MAIN_LOGO":"logo",
+        "LINKEDIN":"linkedin icon",
+        "GITHUB":"github icon"
+    }
+}
