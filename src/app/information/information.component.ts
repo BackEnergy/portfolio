@@ -1,6 +1,6 @@
 import { Component, OnInit} from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-information',
@@ -9,7 +9,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class InformationComponent implements OnInit {
   public weather = null;
-  private key = "1b1c4cf9f4e0c1c1db1b4790118cba93";
+  key = environment.key;
 
   constructor(private http: HttpClient){}
  
