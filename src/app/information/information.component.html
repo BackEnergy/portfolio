@@ -1,5 +1,5 @@
 <section class="d-flex align-items-center flex-column text-white overwrite">
-    <h1>The weather today is {{weather}}</h1>
+    <h1>{{'INFORMATION.WEATHER' | translate}} {{(weather$ | async).current?.temperature}} °C</h1>
     <h1 class="pt-3">{{'INFORMATION.TITLE' | translate}}</h1>
     <h2 class="p-4">
       {{'INFORMATION.DESCRIPTION' | translate}}
