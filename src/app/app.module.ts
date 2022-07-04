@@ -15,6 +15,14 @@ import { SkillsComponent } from './skills/skills.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { FooterComponent } from './footer/footer.component';
 
+import { StoreModule } from '@ngrx/store';
+import { EffectsModule } from '@ngrx/effects';
+import { getInitialState, reducerToken, REDUCER_PROVIDER } from './app.store';
+import { StoreDevtoolsModule } from '@ngrx/store-devtools';
+import { ProjectEffects, weatherEffects } from './projects/store/projects.effects';
+import { projectReducer } from './projects/store/projects.reducers';
+import { weatherReducer } from './projects/store/projects.reducers';
+
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
@@ -41,9 +49,14 @@ export function createTranslateLoader(http: HttpClient) {
         useFactory: (createTranslateLoader),
         deps: [HttpClient]
         }
-    })
+    }),
+    EffectsModule.forRoot([ProjectEffects, weatherEffects]),
+    StoreModule.forRoot(reducerToken, {initialState: getInitialState}),
+    StoreModule.forFeature('projects', projectReducer),
+    StoreModule.forFeature('weather', weatherReducer),
+    StoreDevtoolsModule.instrument({}),
   ],
-  providers: [],
+  providers: [REDUCER_PROVIDER],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

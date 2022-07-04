@@ -1,11 +1,12 @@
 <section class="pb-4 overwrite">
     <h2 class="d-flex align-items-center flex-column pt-3">{{"PROJECTS.TITLE" | translate}}</h2>
-    <ul class="d-flex justify-content-around pt-3">
-      <p class="p-4 border border-dark bg-white">{{project}}</p>
-      <p class="p-4 border border-dark bg-white">{{"PROJECTS.PROJ2" | translate}}</p>
+    <h1 *ngIf="pending$ | async">LOADING</h1>
+    <ul class="d-flex justify-content-around pt-3 flex-wrap">
+      <p class="p-4 border border-dark bg-white">{{(projects$ | async)[0]?.id}}<p>
+      <p class="p-4 border border-dark bg-white">{{(projects$ | async)[1]?.id}}</p>
       <p class="p-4 border border-dark bg-white">{{"PROJECTS.PROJ3" | translate}}</p>
       <p class="p-4 border border-dark bg-white">{{"PROJECTS.PROJ4" | translate}}</p>
       <p class="p-4 border border-dark bg-white">{{"PROJECTS.PROJ5" | translate}}</p>
       <p class="p-4 border border-dark bg-white">{{"PROJECTS.PROJ6" | translate}}</p>
-    </ul>   
+    </ul>
 </section>

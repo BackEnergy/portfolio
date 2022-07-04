@@ -1,6 +1,5 @@
 import { Component, OnInit} from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { environment } from 'src/environments/environment';
+import { WeatherFacade } from '../projects/store/projects.facade';
 
 @Component({
   selector: 'app-information',
@@ -8,12 +7,13 @@ import { environment } from 'src/environments/environment';
   styleUrls: ['./information.component.scss']
 })
 export class InformationComponent implements OnInit {
-  public weather = null;
-  key = environment.key;
 
-  constructor(private http: HttpClient){}
- 
+  weather$ = this.weatherFacade.weather$;
+
+  constructor(private readonly weatherFacade: WeatherFacade){}
+
   ngOnInit(): void {
-    this.http.get<any>(`http://api.weatherstack.com/current?access_key=${this.key}&query=Beirut`).subscribe(req => {this.weather = req.current.temperature;})
+    //this.http.get<any>(`http://api.weatherstack.com/current?access_key=${this.key}&query=Beirut`).subscribe(req => {this.weather = req.current.temperature;})
+    this.weatherFacade.getWeather();
   }
 }

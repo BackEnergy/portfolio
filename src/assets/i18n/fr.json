@@ -10,6 +10,7 @@
         "PC_IMAGE":"image d'ordinateur"
     },
     "INFORMATION":{
+        "WEATHER": "Le temps aujourd'hui est",
         "TITLE":"Salut, je suis Chris. Ravi de vous rencontrer.",
         "DESCRIPTION":"Depuis le début de mon parcours en tant que développeur indépendant il y a près de 4 ans, j'ai travaillé à distance pour des agences, consulté des startups et collaboré avec des personnes talentueuses pour créer des produits numériques à usage professionnel et grand public. Je suis tranquillement confiant, naturellement curieux et je travaille perpétuellement à améliorer mes côtelettes un problème de développement à la fois."
     },
