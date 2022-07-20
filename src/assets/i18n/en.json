@@ -15,13 +15,8 @@
         "DESCRIPTION":"Since beginning my journey as a freelance developer nearly 4 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious,  and perpetually working on improving my chops one dev problem at a time."
     },
     "PROJECTS":{
-        "TITLE":"Here are a few design projects I've worked on recently.",
-        "PROJ1":"First project",
-        "PROJ2":"Second project",
-        "PROJ3":"Third project",
-        "PROJ4":"Fourth project",
-        "PROJ5":"Fifth project",
-        "PROJ6":"Sixth project"
+        "TITLE":"Here are a few design projects I've worked on recently."
+
     },
     "SKILLS":{
         "TITLE":"Front-end Web Developer",
