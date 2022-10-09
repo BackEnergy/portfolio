@@ -22,6 +22,8 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { ProjectEffects, weatherEffects } from './projects/store/projects.effects';
 import { projectReducer } from './projects/store/projects.reducers';
 import { weatherReducer } from './projects/store/projects.reducers';
+import { FollowingEyesComponent } from './following-eyes/following-eyes.component';
+
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -37,6 +39,7 @@ export function createTranslateLoader(http: HttpClient) {
     SkillsComponent,
     ProjectsComponent,
     FooterComponent,
+    FollowingEyesComponent,
   ],
   imports: [
     BrowserModule,

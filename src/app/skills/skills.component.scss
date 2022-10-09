@@ -1,4 +1,10 @@
 .bullet{
     list-style-type: none;
 }
-.design{box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;}
+.design{
+    border-radius: 10%;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    font-family: Inter,Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+}

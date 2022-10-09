@@ -31,6 +31,32 @@
         "IDE5":"GitHub",
         "IDE6":"Terminal"
     },
+    "SKILLS2":{
+        "TITLE":"Designer",
+        "INFORMATION":"I value simple content structure, clean design patterns, and thoughtful interactions.",
+        "LANGUAGES":"Things I enjoy designing:",
+        "PROGRAMMING":"UX, UI, Web, Apps, Logos",
+        "WEB_LOGO":"Design Tools:",
+        "IDE1":"Affinity Designer",
+        "IDE2":"Figma",
+        "IDE3":"Font Awesome",
+        "IDE4":"Pen & Paper",
+        "IDE5":"Sketch",
+        "IDE6":"Webflow"
+    },
+    "SKILLS3":{
+        "TITLE":"Mentor",
+        "INFORMATION":"I genuinely care about people, and love helping fellow designers work on their craft.",
+        "LANGUAGES":"Experiences I draw from:",
+        "PROGRAMMING":"UX/UI, Product design, Freelancing",
+        "WEB_LOGO":"Mentor Stats:",
+        "IDE1":"7 years experience",
+        "IDE2":"26 short courses",
+        "IDE3":"65 bootcamps",
+        "IDE4":"200+ students",
+        "IDE5":"2,350+ mentor sessions",
+        "IDE6":"60+ group critiques"
+    },
     "TESTIMONIALS":{
         "TITLE":"Testimonials",
         "SUBTITLE":"People I've worked with have said some nice things...",

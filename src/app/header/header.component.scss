@@ -9,3 +9,57 @@
   font-size: 16px;
   font-weight: 700;
 }
+// #boom{
+//   position: absolute;
+//   right: 23%;
+//   width: 100px;
+//   height: 100px;
+//   background-image: url('boom.gif');
+//   background-size: cover;
+//   animation: crash 6s linear;
+// }
+// section{
+//   animation: break 6s ease-in-out forwards;
+// }
+// @keyframes break {
+//   50%{
+//     rotate: 0deg;
+//     color: white;
+//   }
+//   52%{
+//     rotate: 1deg;
+//   }
+//   54%{
+//     rotate: -1deg;
+//   }
+//   56%{
+//     rotate: 2deg;
+//   }
+//   58%{
+//     rotate: -2deg;
+//   }
+//   60%{
+//     rotate: 6deg;
+//     color: white;
+//   }
+//   100%{
+//     rotate: 6deg;
+//   }
+// }
+// @keyframes crash {
+//   0%{
+//     translate: -100vw;
+//     background-image: url('rocket.png');
+//   }
+//   49%{
+//     background-image: url('rocket.png');
+//   }
+//   50%{
+//     translate: 0;
+//     background-image: url('boom.gif');
+//   }
+//   60%{
+//     background-image: url('boom.gif');
+
+//   }
+// }
