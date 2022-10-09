@@ -1,5 +1,5 @@
 import { Component, OnInit, HostListener, ViewChild, ElementRef } from '@angular/core';
-import { Any } from 'typeorm';
+// import { Any } from 'typeorm';
 
 @Component({
   selector: 'app-following-eyes',
