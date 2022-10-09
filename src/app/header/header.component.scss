@@ -1,16 +1,65 @@
-/* Adding here the purple color, since in bootstrap wasnt rlly working for the needed color */
-.overwrite{
-    background-color: #7510F7;
-}
-
 .logo{
-  max-width: 10rem;
-  max-height: 5rem;}
+  max-width: 9rem;
+  max-height: 4rem;}
 .language-translate{
-  background: #5E5DF0;
+  color: #5E5DF0;
   border-radius: 999px;
   box-shadow: #5E5DF0 0 10px 20px -10px;
   font-family: Inter,Helvetica;
   font-size: 16px;
   font-weight: 700;
 }
+// #boom{
+//   position: absolute;
+//   right: 23%;
+//   width: 100px;
+//   height: 100px;
+//   background-image: url('boom.gif');
+//   background-size: cover;
+//   animation: crash 6s linear;
+// }
+// section{
+//   animation: break 6s ease-in-out forwards;
+// }
+// @keyframes break {
+//   50%{
+//     rotate: 0deg;
+//     color: white;
+//   }
+//   52%{
+//     rotate: 1deg;
+//   }
+//   54%{
+//     rotate: -1deg;
+//   }
+//   56%{
+//     rotate: 2deg;
+//   }
+//   58%{
+//     rotate: -2deg;
+//   }
+//   60%{
+//     rotate: 6deg;
+//     color: white;
+//   }
+//   100%{
+//     rotate: 6deg;
+//   }
+// }
+// @keyframes crash {
+//   0%{
+//     translate: -100vw;
+//     background-image: url('rocket.png');
+//   }
+//   49%{
+//     background-image: url('rocket.png');
+//   }
+//   50%{
+//     translate: 0;
+//     background-image: url('boom.gif');
+//   }
+//   60%{
+//     background-image: url('boom.gif');
+
+//   }
+// }

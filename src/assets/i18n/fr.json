@@ -30,6 +30,32 @@
         "IDE5":"GitHub",
         "IDE6":"Terminal"
     },
+    "SKILLS2":{
+        "TITLE":"Designer",
+        "INFORMATION":"J'attache de l'importance à une structure de contenu simple, à des modèles de conception épurés et à des interactions réfléchies.",
+        "LANGUAGES":"Les choses que j'aime dessiner :",
+        "PROGRAMMING":"UX, UI, Web, Apps, Logos",
+        "WEB_LOGO":"Outils de conception:",
+        "IDE1":"Affinity Designer",
+        "IDE2":"Figma",
+        "IDE3":"Font Awesome",
+        "IDE4":"Pen & Paper",
+        "IDE5":"Sketch",
+        "IDE6":"Webflow"
+    },
+    "SKILLS3":{
+        "TITLE":"Mentor",
+        "INFORMATION":"Je m'intéresse sincèrement aux gens et j'aime aider les autres designers à perfectionner leur art.",
+        "LANGUAGES":"Les expériences dont je m'inspire :",
+        "PROGRAMMING":"UX/UI, Product design, Freelancing",
+        "WEB_LOGO":"Mentor Stats:",
+        "IDE1":"7 ans d'expérience",
+        "IDE2":"26 cours de courte durée",
+        "IDE3":"65 bootcamps",
+        "IDE4":"200+ étudiants",
+        "IDE5":"2,350+ sessions de mentorat",
+        "IDE6":"60+ critiques de groupe"
+    },
     "TESTIMONIALS":{
         "TITLE":"Témoignages",
         "SUBTITLE":"Les gens avec qui j'ai travaillé m'ont dit des choses gentilles...",
