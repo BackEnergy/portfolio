@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
+import { WeatherFacade } from '../projects/store/projects.facade';
 
 @Component({
   selector: 'app-information',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InformationComponent implements OnInit {
 
-  constructor() { }
+  weather$ = this.weatherFacade.weather$;
+
+  constructor(private readonly weatherFacade: WeatherFacade){}
 
   ngOnInit(): void {
+    //this.http.get<any>(`http://api.weatherstack.com/current?access_key=${this.key}&query=Beirut`).subscribe(req => {this.weather = req.current.temperature;})
+    this.weatherFacade.getWeather();
   }
-
 }

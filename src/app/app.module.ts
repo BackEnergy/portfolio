@@ -1,6 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import {HttpClientModule, HttpClient} from '@angular/common/http';
+import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
+import {TranslateHttpLoader} from '@ngx-translate/http-loader';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TestimonialComponent } from './testimonials/testimonial.component';
@@ -11,6 +15,19 @@ import { SkillsComponent } from './skills/skills.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { FooterComponent } from './footer/footer.component';
 
+import { StoreModule } from '@ngrx/store';
+import { EffectsModule } from '@ngrx/effects';
+import { getInitialState, reducerToken, REDUCER_PROVIDER } from './app.store';
+import { StoreDevtoolsModule } from '@ngrx/store-devtools';
+import { ProjectEffects, weatherEffects } from './projects/store/projects.effects';
+import { projectReducer } from './projects/store/projects.reducers';
+import { weatherReducer } from './projects/store/projects.reducers';
+import { FollowingEyesComponent } from './following-eyes/following-eyes.component';
+
+
+export function createTranslateLoader(http: HttpClient) {
+  return new TranslateHttpLoader(http, './assets/i18n/', '.json');
+}
 
 @NgModule({
   declarations: [
@@ -22,12 +39,27 @@ import { FooterComponent } from './footer/footer.component';
     SkillsComponent,
     ProjectsComponent,
     FooterComponent,
+    FollowingEyesComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    TranslateModule.forRoot({
+      defaultLanguage: 'en',
+      loader: {
+        provide: TranslateLoader,
+        useFactory: (createTranslateLoader),
+        deps: [HttpClient]
+        }
+    }),
+    EffectsModule.forRoot([ProjectEffects, weatherEffects]),
+    StoreModule.forRoot(reducerToken, {initialState: getInitialState}),
+    StoreModule.forFeature('projects', projectReducer),
+    StoreModule.forFeature('weather', weatherReducer),
+    StoreDevtoolsModule.instrument({}),
   ],
-  providers: [],
+  providers: [REDUCER_PROVIDER],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
